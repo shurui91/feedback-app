@@ -10,12 +10,11 @@ function App() {
 	return (
 		<>
 			<Header text='Hello World' />
-			<div className="container">
+			<div className='container'>
 				<FeedbackList feedback={feedback} />
 			</div>
 		</>
-	)
+	);
 }
 
 export default App;
-;
