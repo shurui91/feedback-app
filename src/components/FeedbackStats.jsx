@@ -6,7 +6,7 @@ function FeedbackStats({ feedback }) {
 		feedback.reduce((acc, cur) => {
 			return acc + cur.rating;
 		}, 0) / feedback.length;
-	console.log(average);
+	// console.log(average);
 
 	return (
 		<div className='feedback-stats'>
